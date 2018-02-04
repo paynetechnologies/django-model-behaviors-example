@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "I:\\Python\\Python36\\python.exe",
+    "python.venvPath":  "C:\\Users\\payne\\Envs\\reipvenv\\Scripts\\python.exe",
+    "terminal.integrated.shell.windows": "I:\\Program Files\\Git\\bin\\bash.exe",
+    "python.linting.pylintArgs": ["--disable=R,C" ],
+    "restructuredtext.confPath": "h:\\projects\\repos\\reip\\reip",    
+}
