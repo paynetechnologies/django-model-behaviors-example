@@ -29,9 +29,8 @@ class BlogPost(Authorable, Permalinkable, Timestampable, Publishable, models.Mod
     def slug_source(self):
         return self.title
     
-    objects = BlogPostManager()
-    #QueryManager.get_queryset(BlogPostQuerySet)()
-    #objects = PassThroughManager.for_queryset_class(BlogPostQuerySet)()
+    # objects = BlogPostManager()
+    objects = BlogPostQuerySet.as_manager()
 
 
 class BlogComment(Authorable, Permalinkable, Timestampable, models.Model):
