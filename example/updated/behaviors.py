@@ -16,7 +16,8 @@ class Permalinkable(models.Model):
         kwargs.update(getattr(self, 'url_kwargs', {}))
         return kwargs
     
-    @models.permalink
+
+    #@models.permalink
     def get_absolute_url(self):
         url_kwargs = self.get_url_kwargs(slug=self.slug)
         return (url_kwargs)

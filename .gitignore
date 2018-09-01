@@ -15,3 +15,8 @@ ghostdriver.log
 pep8.report
 .env
 *.sqlite
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+pip-selfcheck.json
